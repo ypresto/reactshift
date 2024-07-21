@@ -3,8 +3,10 @@
     "target": "es2021",
     "module": "Node16",
     "moduleResolution": "Node16",
-    "rootDir": "./src",
-    "types": [],
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "noEmit": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
